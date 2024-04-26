@@ -1,0 +1,74 @@
+body {
+    font-family: 'Hlvetica Neue', sans-serif;
+    background-color:white;
+    color:black;
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background: url(./assest/portada.jpeg)no-repeat;
+    background-size:cover;
+    background-position:10% 10%;
+    height: 500px;
+    width: 100%
+  }
+  
+  #container {
+    background: url(./assest/fondo.jpg) no-repeat;
+    background-size: cover;
+    background-position: 10% 10%;
+    height: 100vh; /* Cambiado a 100vh para ocupar toda la altura de la ventana */
+    width: 100%;
+}
+
+
+
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    color: #000205;
+    margin-bottom: 30px;
+    text-align: center;
+    font-family: "EB Garamond", serif;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 10px; 
+    color:black;
+    font-family: "EB Garamond", serif; 
+    text-transform:uppercase; 
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight:bolder;
+    font-family: "EB Garamond", serif;
+    
+
+}
+
+.btn {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 600;
+    color:black;
+    background-color: rgb(248,26,92);
+    border: none;
+    border-radius: 60px;
+    padding: 10px 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color:black;
+}

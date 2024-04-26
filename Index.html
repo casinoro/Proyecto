@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles.css"
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Jersey+10+Charted&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">Tumoda.com</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav  me-auto my-2 my-lg-0">
+              
+              <li class="nav-item">
+                <a class="nav-link active" href="Registrate.html">Registrate</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Login.html" data-bs-toggle="modal" data-bs-target="#Modal_Login">Iniciar sesión</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Quienes.html">QUIENES SOMOS</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contactos.html" data-bs-toggle="modal" data-bs-target="#Modal_contactos">Contactanos</a>
+              </li>
+              
+<form class="d-flex">
+<input class="px-2 search" type="search" placeholder="Search" aria-label="Search">
+<button class="btn0" type="submit">Search</button>
+</form> 
+              
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</nav>
+
+
+      <!-- estoy creando una seccion con un contenedor para mi h1-->
+      <section class="main">
+      <div class ="container py-5">
+        <div class ="row py-4">
+          <div class="col-lg-7 pt-5 text-center align-items:center">
+            <h1 class="pt-5">Somos Mas Que Una Tienda</h1>
+      
+<!-- Contenedor del vídeo -->
+<div id="contenedor-video" style="display: flex; flex-direction: column; align-items: center;"></div>
+  <video autoplay muted loop controls width="" height="260" align-items: center;>
+    <source src="./assest/video.mp4"/>
+    
+  </video>
+</div>
+
+<!-- Script>s -->
+
+<script>
+document.getElementById("boton-reproducir-video").addEventListener("click", function() {
+ 
+  var contenedor = document.getElementById("contenedor-video");
+
+  // URL del video de YouTube (debe ser una URL válida que termine en /embed/ seguido del ID del video)
+
+
+  // Código para crear un iframe que reproduce el video de YouTube
+  var iframe = document.createElement("iframe");
+  iframe.setAttribute("width", "650");
+  iframe.setAttribute("height", "315");
+  iframe.setAttribute("src", videoUrl);
+  iframe.setAttribute("frameborder", "0");
+  iframe.setAttribute("allowfullscreen", "");
+// Eliminar contenido existente del contenedor
+  contenedor.innerHTML = "";
+ // Agregar el iframe al contenedor
+  contenedor.appendChild(iframe);
+</script>
+
+          
+
+<section class="product">
+        <div class="container py-5">
+          <div class="row py-5 m-auto text-center">
+            <div class="col-lg-5 m-auto text-center">
+           <h1> En Oferta</h1>
+           <h6 style ="color:red;">Tenemos 20% Off</h6>
+            </div>
+          </div>
+
+<section>
+
+  <div class="row">
+    <div class="col-lg-3 text-center">
+      <div class="card border-0 bg-light mb-2">
+        <div class="card-body">
+          <img src="./assest/chaquetas.jpg" class="img-fluid" alt="" style="width: 300px; height: 300px;">
+        </div>
+        <h6>Chaquetas de Lujo</h6>
+        <p> Desde $249.99</p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 text-center">
+      <div class="card border-0 bg-light mb-2">
+        <div class="card-body">
+          <img src="./assest/tacones.jpg" class="img-fluid" alt="" style="width: 300px; height: 300px;">
+        </div>
+        <h6>Tacones</h6>
+        <p> Desde $140.00</p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 text-center">
+      <div class="card border-0 bg-light mb-2">
+        <div class="card-body">
+          <img src="./assest/accesorios.jpg" class="img-fluid" alt="" style="width: 300px; height: 300px;">
+        </div>
+        <h6>Accesorios</h6>
+        <p>Desde $49.99</p>
+      </div>
+    </div>
+
+    <div class="col-lg-3 text-center">
+      <div class="card border-0 bg-light mb-2">
+        <div class="card-body">
+          <img src="./assest/falda.jpg" class="img-fluid" alt="" style="width: 300px; height: 300px;">
+        </div>
+        <h6>Faldas</h6>
+        <p>Desde $100.00</p>
+      </div>
+    </div>
+
+
+    <div class="row pt-3">
+      <div class="col-lg-6 text-center m-auto">
+        <button id="btnProductosInternacionales" class="btn btn0 mt-3">Internacionales</button>
+      </div>
+    </div>
+
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    </script>
+<!-- Carrusel oculto -->
+
+<div id="carrusel" class="carousel slide d-none" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./assest/negros.jpg" class="d-block w-100" alt="Slide 1">
+    </div>
+    <div class="carousel-item">
+      <img src="./assest/perfume.jpg" class="d-block w-100" alt="Slide 2">
+    </div>
+    <div class="carousel-item">
+      <img src="./assest/reloj.jpg" class="d-block w-100" alt="Slide 3">
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carrusel" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Anterior</span>
+  </a>
+  <a class="carousel-control-next" href="#carrusel" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Siguiente</span>
+  </a>
+</div>
+</div>
+
+<script>
+ 
+  const btnProductosInternacionales = document.getElementById('btnProductosInternacionales');
+  const carrusel = document.getElementById('carrusel');
+
+  
+  btnProductosInternacionales.addEventListener('click', function() {
+   
+    if (carrusel.classList.contains('d-none')) {
+      carrusel.classList.remove('d-none');
+    } else {
+      carrusel.classList.add('d-none');
+    }
+  });
+</script>
+
+
+</section>
+
+<section class="about">
+<div class="container py-5 ">
+<div class="row py-5">
+ <div class="col-lgl-8 m-auto text-center">
+  <h1>Bienvenidos A La Tienda Mas Cool </h1>
+  <h6 style ="color:red;"> Ahorra Mas Con Nuestro Plan de Asociados</h6>
+ </div> 
+</div>
+
+<div class="row">
+  <div class="col-lg-3 text-center">
+    <div class="card border-0 bg-light mb-2">
+      <div class="card-body">
+        <img src="./assest/chaqueta1.jpg"img-fluid" alt="Premium Jackets" style="width: 300px; height: 300px;">
+      </div>
+      <h6>Chaqueta Hombre</h6>
+      <p>$300.00</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 text-center">
+    <div class="card border-0 bg-light mb-2">
+      <div class="card-body">
+        <img src="./assest/sombrero.jpg" class="img-fluid" alt="Heels" style="width: 300px; height: 300px;">
+      </div>
+      <h6>Sombrero de Diseñador</h6>
+      <p>$149.00</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 text-center">
+    <div class="card border-0 bg-light mb-2">
+      <div class="card-body">
+        <img src="./assest/totti.jpg" class="img-fluid" alt="Accessories" style="width: 300px; height: 300px;">
+      </div>
+      <h6>Perfume Italiano Totti fraganchi</h6>
+      <p>$99.99</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 text-center">
+    <div class="card border-0 bg-light mb-2">
+      <div class="card-body">
+        <img src="./assest/tacos1.jpg" class="img-fluid" alt="Premium Jackets" style="width: 300px; height: 300px;">
+      </div>
+      <h6>Tacones Aniverse Premium</h6>
+      <p>$299.99</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-3 text-center">
+    <div class="card border-0 bg-light mb-2">
+      <div class="card-body">
+        <img src="./assest/bolso1.jpg" class="img-fluid" alt="Premium Jackets" style="width: 300px; height: 300px;">
+      </div>
+      <h6>Bolso Adolfo Pasion </h6>
+      <p>$289.99</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 text-center">
+    <div class="card border-0 bg-light mb-2">
+      <div class="card-body">
+        <img src="./assest/leña.jpg" class="img-fluid" alt="Heels" style="width: 300px; height: 300px;">
+      </div>
+      <h6>Leñadora el Barbudo</h6>
+      <p>$140.00</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 text-center">
+    <div class="card border-0 bg-light mb-2">
+      <div class="card-body">
+        <img src="./assest/teni.jpg" class="img-fluid" alt="Accessories" style="width: 300px; height: 300px;">
+      </div>
+      <h6>Tennis Istock</h6>
+      <p>$172.99</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 text-center">
+    <div class="card border-0 bg-light mb-2">
+      <div class="card-body">
+        <img src="./assest/minifalta.jpg" class="img-fluid" alt="Premium Jackets" style="width: 300px; height: 300px;">
+      </div>
+      <h6>Falda Premium Iris</h6>
+      <p>$59.99</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-lg-3 text-center">
+    <div class="card border-0 bg-light mb-2">
+      <div class="card-body">
+        <img src="./assest/bufanda.jpg"img-fluid" alt="Premium Jackets" style="width: 300px; height: 300px;">
+      </div>
+      <h6>Bufanda Azure</h6>
+      <p></p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 text-center">
+    <div class="card border-0 bg-light mb-2">
+      <div class="card-body">
+        <img src="./assest/brasi.jpg" class="img-fluid" alt="Heels" style="width: 300px; height: 300px;">
+      </div>
+      <h6>Brassier Finix</h6>
+      <p>$40.00</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 text-center">
+    <div class="card border-0 bg-light mb-2">
+      <div class="card-body">
+        <img src="./assest/jeans.jpg" class="img-fluid" alt="Accessories" style="width: 300px; height: 300px;">
+      </div>
+      <h6>Jeans Mujer Britney</h6>
+      <p>$49.99</p>
+    </div>
+  </div>
+
+  <div class="col-lg-3 text-center">
+    <div class="card border-0 bg-light mb-2">
+      <div class="card-body">
+        <img src="./assest/collar.jpg" class="img-fluid" alt="Premium Jackets" style="width: 300px; height: 300px;">
+      </div>
+      <h6>Collar para perro Moda</h6>
+      <p>9.99</p>
+
+
+
+
+
+
+    </div>
+  </div>
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="Modal_Login">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Sistema de Ingreso</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="container mt-3">
+  <center><h2>Inicia sesión para comprar</h2>
+  <p>Unete a la mas grande tendencia de la moda</p></center>
+  <form action="/action_page.php">
+    <div class="form-floating mb-3 mt-3">
+      <input type="text" class="form-control" id="email" placeholder="Enter email" name="email">
+      <label for="email">Correo electrónico</label>
+    </div>
+    <div class="form-floating mt-3 mb-3">
+      <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+      <label for="pwd">Contraseña</label>
+    </div>
+    <center><button type="submit" class="btn btn-primary">Submit</button></center>
+    <a class="btn btn-primary" type="button" href="index.html">Regresar</a>
+  </form>
+</div>
+      </div>
+ 
+    </div>
+  </div>
+</div>
+ 
+<!-- The Modal -->
+<div class="modal" id="Modal_contactos">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Contactanos</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="contact-section">
+        <center><h2>Información de Contacto</h2>
+        <p>Dirección: 123 Calle Principal, Ciudad</p>
+        <p>Teléfono: 555-123-4567</p>
+        <p>Correo Electrónico: info@tumoda.com</p></center>
+
+        <center><h2>Formulario de Contacto</h2></center>
+       <center><form action="procesar_formulario.php" method="post">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre"><br>
+            <label for="correo">Correo Electrónico:</label><br>
+            <input type="email" id="correo" name="correo"><br>
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" cols="50" rows="3"></textarea><br><br>
+            <input type="submit"class="btn btn-primary" value="Enviar">
+        </form></center> 
+    </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</div>
+</div>

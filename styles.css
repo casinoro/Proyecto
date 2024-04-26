@@ -1,0 +1,86 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .navbar-brand{
+    font-size:2rem;
+    color:white;
+  }
+  .navbar-brand:hover{
+    color:  rgb(248,26,92);
+  
+  }
+  
+  .nav-link{
+  margin-right: 10px; 
+  margin: left 10px;
+  color:white;
+  font-family: "EB Garamond", serif; 
+  text-transform:uppercase; 
+  }
+  .nav-link:hover{
+  color: rgb(248,26,92); 
+  
+  }
+  
+  .card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Ajusta los valores según lo desees */
+  } 
+  
+  /* voy a modificar el tamaño del searh*/
+  .search{
+  height:40px;
+  width: 80%;
+  border-radius:60px;
+  outline:none;
+  margin-right:-35px;
+  border:2px solid rgb(248,26,92)
+  }
+  /*modifico el color del boton que denomime btn0*/
+  .btn0{
+  height: 40px; 
+  width:40%;
+  outline: none;
+  border: none;
+  background:rgb(248,26,92);
+  color:white;
+  border-radius :60px; 
+  font: weight 700px; 
+  }
+  /*a la seccion que agregue le voy a crear el posicionamiento  y añadir el fondo*/
+  
+  .main{
+    background: url(./assest/portada.jpeg)no-repeat;
+    background-size:cover;
+    background-position:10% 10%;
+    height: 500px;
+    width: 100%
+  }
+  .main h1{
+  font-size: 4rem;
+  font-weight:700;
+  color:rgb(248,26,92)
+  
+  }
+  
+  .btn1{
+    height:45px ;
+    width: 35%;
+    border: none;
+    outline: none;
+    background-color:rgb(248,26,92);
+    color:white;
+    font-weight: 700;
+    border-radius:60px;
+  }
+  .btn1:hover{
+   background-color: rgb(248,26,92);}
+
+   .navbar{
+    background-color: #040205;
+    
+    }
+  
+
+  
