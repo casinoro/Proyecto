@@ -51,7 +51,7 @@
   /*a la seccion que agregue le voy a crear el posicionamiento  y añadir el fondo*/
   
   .main{
-    background: url(./assest/portada.jpeg)no-repeat;
+    background: url(./assest/portada.jpg)no-repeat;
     background-size:cover;
     background-position:10% 10%;
     height: 500px;
@@ -78,9 +78,14 @@
    background-color: rgb(248,26,92);}
 
    .navbar{
-    background-color: #040205;
+    background-color: #040205;}
     
-    }
-  
+    #parrafo1 {
+      color: white;}
 
-  
+    #parrafo2 {
+    color: white;
+    background-color: rgb(248,26,92);  
+  }
+
+

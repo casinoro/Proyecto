@@ -15,7 +15,7 @@ body {
   }
   
   #container {
-    background: url(./assest/fondo.jpg) no-repeat;
+    background: url(./assest/quienes.jpg) no-repeat;
     background-size: cover;
     background-position: 10% 10%;
     height: 100vh; /* Cambiado a 100vh para ocupar toda la altura de la ventana */
